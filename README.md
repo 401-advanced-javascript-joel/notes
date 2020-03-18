@@ -24,4 +24,4 @@ Example of adding a note to the database (must use -a or --add)
 
 #### UML
 
-![UML](https://drive.google.com/file/d/1i69phC6ir_q-i4TmDu9l6QAEp18bsrp7/view?usp=sharing)
+![UML](https://drive.google.com/uc?export=view&id=1i69phC6ir_q-i4TmDu9l6QAEp18bsrp7)
