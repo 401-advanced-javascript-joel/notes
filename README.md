@@ -12,7 +12,9 @@
 
 ### Setup
 
-#### How to initialize/run your application (where applicable)
+- `npm install`
+
+#### How to run
 
 Example of adding a note to the database (must use -a or --add)
 
@@ -24,4 +26,4 @@ Example of adding a note to the database (must use -a or --add)
 
 #### UML
 
-![UML](https://drive.google.com/uc?export=view&id=1i69phC6ir_q-i4TmDu9l6QAEp18bsrp7)
+![UML](https://raw.githubusercontent.com/JoelMWatson/data-structures-and-algorithms/master/assets/notes.jpg)
