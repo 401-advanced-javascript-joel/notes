@@ -1,6 +1,6 @@
 'use strict';
 /**
- * Simple Notes App
+ * A simple node.js application with a notes command
  * @module index
  */
 
