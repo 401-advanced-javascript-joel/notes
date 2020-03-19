@@ -7,8 +7,7 @@
 ### Links and Resources
 
 - [submission PR](http://xyz.com)
-- [ci/cd](http://xyz.com) (GitHub Actions)
-- [back-end server url](http://xyz.com) (when applicable)
+- [ci/cd](https://github.com/401-advanced-javascript-joel/notes/runs/518200179) (GitHub Actions)
 
 ### Setup
 
