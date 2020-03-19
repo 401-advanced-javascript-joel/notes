@@ -1,5 +1,5 @@
 {
-  "name": "notes",
+  "name": "@fellowjoel/notes",
   "version": "1.0.0",
   "description": "A command line application using Node.js called notes which will allow the user to specify a note (words) to be added to a database.",
   "main": "index.js",

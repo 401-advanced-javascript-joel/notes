@@ -6,8 +6,9 @@
 
 ### Links and Resources
 
-- [submission PR](http://xyz.com)
+- [submission PR](https://github.com/401-advanced-javascript-joel/notes/pull/1)
 - [ci/cd](https://github.com/401-advanced-javascript-joel/notes/runs/518200179) (GitHub Actions)
+- [NPM](https://www.npmjs.com/package/@fellowjoel/notes)
 
 ### Setup
 
