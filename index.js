@@ -1,4 +1,6 @@
+#!/usr/bin/env node
 'use strict';
+
 /**
  * A simple node.js application with a notes command
  * @module index
