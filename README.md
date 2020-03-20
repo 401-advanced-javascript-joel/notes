@@ -6,7 +6,8 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/401-advanced-javascript-joel/notes/pull/1)
+- [submission PR (lab-01)](https://github.com/401-advanced-javascript-joel/notes/pull/1)
+- [submission PR (lab-02)](https://github.com/401-advanced-javascript-joel/notes/pull/2)
 - [ci/cd](https://github.com/401-advanced-javascript-joel/notes/runs/518200179) (GitHub Actions)
 - [NPM](https://www.npmjs.com/package/@fellowjoel/notes)
 
@@ -26,4 +27,5 @@ Example of adding a note to the database (must use -a or --add)
 
 #### UML
 
-![UML](https://raw.githubusercontent.com/JoelMWatson/data-structures-and-algorithms/master/assets/notes.jpg)
+![UML01](https://raw.githubusercontent.com/JoelMWatson/data-structures-and-algorithms/master/assets/notes.jpg)
+![UML02](https://raw.githubusercontent.com/JoelMWatson/data-structures-and-algorithms/master/assets/classes.jpg)

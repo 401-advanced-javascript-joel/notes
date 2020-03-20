@@ -20,15 +20,11 @@ if (input.valid()) {
   switch (input.command.action) {
   case 'add': 
     // Sends properly parsed input to the Notes library for display
-    if (notes.execute(input.command)) {
-      console.log('Successfully Added');
-    } else {
-      throw new Error('Supplied note text invalid.');
-    }
+    notes.execute(input.command);
     break;
   default: 
-    throw new Error('Supplied action is unknown.');
+    break;
   }
 } else {
-  throw new Error('Improper command format. See --help');
+  throw new Error('Invalid command. See --help');
 }
