@@ -26,5 +26,5 @@ if (input.valid()) {
     break;
   }
 } else {
-  throw new Error('Invalid command. See --help');
+  console.error('Invalid command. See --help');
 }
