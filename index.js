@@ -17,8 +17,18 @@ let notes = new Notes();
 let input = new Input();
 
 if (input.valid()) {
-  // Sends properly parsed input to the Notes library for display
-  notes.add(input.command.payload);
+  switch (input.command.action) {
+  case 'add': 
+    // Sends properly parsed input to the Notes library for display
+    if (notes.execute(input.command)) {
+      console.log('Successfully Added');
+    } else {
+      throw new Error('Supplied note text invalid.');
+    }
+    break;
+  default: 
+    throw new Error('Supplied action is unknown.');
+  }
 } else {
-  console.error('Error: Invalid Input.');
+  throw new Error('Improper command format. See --help');
 }
