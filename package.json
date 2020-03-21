@@ -1,6 +1,6 @@
 {
   "name": "@fellowjoel/notes",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A command line application using Node.js called notes which will allow the user to specify a note (words) to be added to a database.",
   "main": "index.js",
   "bin": {
@@ -19,7 +19,7 @@
   "author": "Joel Watson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/401-advanced-javascript-joel/notes/issues"
+    "url": "https://github.com/401-advancgited-javascript-joel/notes/issues"
   },
   "homepage": "https://github.com/401-advanced-javascript-joel/notes#readme",
   "dependencies": {
