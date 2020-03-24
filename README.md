@@ -8,6 +8,7 @@
 
 - [submission PR (lab-01)](https://github.com/401-advanced-javascript-joel/notes/pull/1)
 - [submission PR (lab-02)](https://github.com/401-advanced-javascript-joel/notes/pull/2)
+- [submission PR (lab-03)](https://github.com/401-advanced-javascript-joel/notes/pull/4)
 - [ci/cd](https://github.com/401-advanced-javascript-joel/notes/runs/518200179) (GitHub Actions)
 - [NPM](https://www.npmjs.com/package/@fellowjoel/notes)
 
@@ -19,7 +20,21 @@
 
 Example of adding a note to the database (must use -a or --add)
 
-- `node index.js notes --add "Hello, I am an example note"`
+- `notes --add "Hello, I am an example note"`
+- `notes --add "Hello, I am an example note" --categories "school, examples" // categories optional`
+
+Example of listing the notes from the database (must use -l or --list)
+
+- `notes --list // gets all notes`
+- `notes --list school // gets notes with "school" category`
+
+Example of updating a note in the database (must use -u or --update)
+
+- `notes --update <note-uuid> --note "I've been updated" --categories "school, examples" // replace note-uuid with actual uuid from mongo`
+
+Example of adding a note to the database (must use -d or --delete)
+
+- `notes --delete <note-uuid>` 
 
 #### Tests
 
@@ -29,3 +44,4 @@ Example of adding a note to the database (must use -a or --add)
 
 ![UML01](https://raw.githubusercontent.com/JoelMWatson/data-structures-and-algorithms/master/assets/notes.jpg)
 ![UML02](https://raw.githubusercontent.com/JoelMWatson/data-structures-and-algorithms/master/assets/classes.jpg)
+![UML03](https://raw.githubusercontent.com/JoelMWatson/data-structures-and-algorithms/master/assets/mongo.jpg)
