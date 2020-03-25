@@ -8,8 +8,10 @@
 
 - [submission PR (lab-01)](https://github.com/401-advanced-javascript-joel/notes/pull/1)
 - [submission PR (lab-02)](https://github.com/401-advanced-javascript-joel/notes/pull/2)
-- [submission PR (lab-03)](https://github.com/401-advanced-javascript-joel/notes/pull/4)
-- [ci/cd](https://github.com/401-advanced-javascript-joel/notes/runs/518200179) (GitHub Actions)
+- [submission PR (lab-03)](https://github.com/401-advanced-javascript-joel/notes/pull/3)
+- [ci/cd (lab-01)](https://github.com/401-advanced-javascript-joel/notes/runs/518200179) 
+- [ci/cd (lab-02)](https://github.com/401-advanced-javascript-joel/notes/runs/523368933) 
+- [ci/cd (lab-03)](https://github.com/401-advanced-javascript-joel/notes/runs/532289891) (temporarily failing)
 - [NPM](https://www.npmjs.com/package/@fellowjoel/notes)
 
 ### Setup
