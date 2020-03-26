@@ -1,20 +1,16 @@
 'use strict';
 
 const mongoose = require('mongoose');
+const mockDB = require('../data/mock-db');
 const Notes = require('../lib/notes');
 
 const notes = new Notes();
 const spy = jest.spyOn(console, 'log');
 const errorSpy = jest.spyOn(console, 'error');
 
-beforeEach(async () => {   
-  await mongoose.connect('mongodb://127.0.0.1:27017/test_notes', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useFindAndModify: false,
-    useCreateIndex: true,
-  });
-});
+beforeEach(async () => await mockDB.connectMock());
+
+afterAll(async () => await mockDB.closeMock());
 
 describe('Testing notes module handles add action correctly.', () => {
   test('invalid command input is rejected', async () => {
