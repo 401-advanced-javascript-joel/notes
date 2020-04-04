@@ -1,16 +1,19 @@
 {
   "name": "@fellowjoel/notes",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "A command line application using Node.js called notes which will allow the user to specify a note (words) to be added to a database.",
   "main": "index.js",
   "bin": {
     "notes": "./index.js"
   },
   "scripts": {
-    "test": "jest --verbose --coverage",
+    "test": "jest --verbose --coverage --detectOpenHandles",
     "start": "node index.js",
     "lint": "eslint **/*.js --fix",
     "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "repository": {
     "type": "git",
@@ -26,6 +29,10 @@
     "eslint": "^6.8.0",
     "jest": "^25.1.0",
     "jsdoc": "^3.6.3",
+    "mongoose": "^5.9.5",
     "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^6.5.0"
   }
 }

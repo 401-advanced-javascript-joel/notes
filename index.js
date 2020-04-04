@@ -6,6 +6,8 @@
  * @module index
  */
 
+require('./data/mongoose');
+
 // Requires the library files you will be writing (input, notes)
 const Input = require('./lib/input');
 const Notes = require('./lib/notes');
@@ -16,15 +18,5 @@ let notes = new Notes();
 // Instantiates an “Input” parser
 let input = new Input();
 
-if (input.valid()) {
-  switch (input.command.action) {
-  case 'add': 
-    // Sends properly parsed input to the Notes library for display
-    notes.execute(input.command);
-    break;
-  default: 
-    break;
-  }
-} else {
-  console.error('Invalid command. See --help');
-}
+notes.execute(input.command);
+
