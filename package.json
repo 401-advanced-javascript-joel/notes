@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "jest --verbose --coverage --detectOpenHandles",
+    "test-watch": "jest --watchAll --verbose --coverage --detectOpenHandles",
     "start": "node index.js",
     "lint": "eslint **/*.js --fix",
     "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
